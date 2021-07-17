@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frm1"
+                style="@style/fram_image_style"
+                android:background="@drawable/image_background">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    style="@style/image_style"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frm3"
+                style="@style/fram_image_style"
+                android:background="@drawable/image_background">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    style="@style/image_style" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frm5"
+                style="@style/fram_image_style"
+                android:background="@drawable/image_background">
+
+                <ImageView
+                    android:id="@+id/image5"
+                    style="@style/image_style"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frm2"
+                style="@style/fram_image_style"
+                android:background="@drawable/image_background">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    style="@style/image_style"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frm4"
+                style="@style/fram_image_style"
+                android:background="@drawable/image_background">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    style="@style/image_style"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frm6"
+                style="@style/fram_image_style"
+                android:background="@drawable/image_background">
+
+                <ImageView
+                    android:id="@+id/image6"
+                    style="@style/image_style"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
